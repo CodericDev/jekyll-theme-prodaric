@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta property="og:type"               content="website" />
-		<meta property="og:image"              content="https://codericlatam.github.io/Prodaric/images/splash.png" />
+		<meta property="og:image"              content="{{ site.baseurl }}/images/splash.png" />
 		
 		{% seo %}
 		{% feed_meta %}
@@ -17,8 +17,8 @@
 			  "logo": "https://codericlatam.github.io/Prodaric/images/logotron.png"
 			}
 		</script>
-		<link rel="stylesheet" href="https://codericlatam.github.io/Prodaric/css/screen.css">
-		<link rel="icon" type="image/png" href="https://codericlatam.github.io/Prodaric/images/favicon-32x32.png">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon-32x32.png">
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
