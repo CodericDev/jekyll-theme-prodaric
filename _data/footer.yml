@@ -40,21 +40,9 @@
     link: /
     new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com/Prodaric/
-    new_window: true
-    social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/Prodaric
-    social_icon: Twitter
-    new_window: true
   - name: Github
     link: https://github.com/prodaric
     social_icon: Github
-    new_window: true
-  - name: NPM
-    link: https://www.npmjs.com/package/prodaric/prodaric
-    social_icon: NPM
     new_window: true
   - name: RSS
     link: /feed.xml
